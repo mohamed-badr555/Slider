@@ -1,0 +1,42 @@
+img{
+    height: 300px;
+    object-fit: cover;
+}
+figcaption{
+    --margin-value:10px;
+    left: var(--margin-value);
+    bottom: var(--margin-value);
+    right: var(--margin-value);
+    translate: 0 calc(100% + var(--margin-value));
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+figure:hover figcaption{
+    translate: 0;
+}
+.innerDiv{
+    width: 50%;
+    margin: auto;
+    height: 350px;
+    object-fit: cover;
+    background-image: url(../images/avatar1.png);
+    background-size: 100% 100%;
+}
+.innerDiv i{
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
